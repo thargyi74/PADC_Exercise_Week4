@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/left_menu_linkin"
+            android:checked="true"
+            android:icon="@drawable/ic_slow_motion_video_black_24dp"
+            android:title="@string/left_menu_padc_linkin"
+            />
+
+        <item
+            android:id="@+id/left_menu_job_search"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="@string/left_menu_padc_job_search"/>
+
+        <item
+            android:id="@+id/left_menu_pulse"
+            android:icon="@drawable/ic_input_black_24dp"
+            android:title="@string/left_menu_padc_pulse"/>
+
+        <item
+            android:id="@+id/left_menu_movies"
+            android:icon="@drawable/ic_voicemail_black_24dp"
+            android:title="@string/left_menu_padc_movie"/>
+
+        <item
+            android:id="@+id/left_menu_win_zin"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/left_menu_win_zin"/>
+
+    </group>
+</menu>
