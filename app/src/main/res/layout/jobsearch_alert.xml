@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium_3"
+    android:background="#FFF"
+    android:padding="@dimen/margin_medium_3">
+
+    <ImageView
+        android:id="@+id/img_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_notifications_black_24dp" />
+
+    <Switch
+        android:id="@+id/switch_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/img_switch"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/job_search_switch" />
+</RelativeLayout>

@@ -1,6 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thargyi.padc_exercise_week4.fragments.PulseFragment">
 
-</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/singapore_skyview_background" />
+
+            <LinearLayout
+                android:id="@+id/pulse_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:orientation="vertical"
+                android:paddingTop="?attr/actionBarSize">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_medium_2"
+                    android:layout_marginRight="@dimen/margin_medium_2"
+                    android:layout_marginTop="@dimen/margin_medium_2">
+
+                    <ImageView
+                        android:id="@+id/pulse_touch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:paddingRight="@dimen/margin_medium"
+                        android:src="@drawable/ic_all_out_24dp" />
+
+
+                    <ImageView
+                        android:id="@+id/pulse_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/margin_medium"
+                        android:src="@drawable/ic_settings_24dp" />
+
+                    <ImageView
+                        android:id="@+id/pulse_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/pulse_setting"
+                        android:paddingLeft="@dimen/margin_medium"
+                        android:paddingRight="@dimen/margin_medium"
+                        android:src="@drawable/ic_search_white_24dp" />
+
+                    <ImageView
+                        android:id="@+id/pulse_person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/pulse_search"
+                        android:paddingLeft="@dimen/margin_medium"
+                        android:paddingRight="@dimen/margin_medium"
+                        android:src="@drawable/ic_person_outline_24dp" />
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/img_linkedin_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_xlarge"
+                    android:foregroundGravity="center_horizontal"
+                    android:src="@drawable/aung_pyae_phyo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/pulse_title_1"
+                    android:textColor="#FFF"
+                    android:textSize="@dimen/text_regular_3x" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/pulse_title_2"
+                    android:textColor="#FFF"
+                    android:textSize="@dimen/text_small" />
+
+            </LinearLayout>
+
+            <include
+                android:id="@+id/pulse_body"
+                layout="@layout/pulse_editor_pick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_medium_2"
+    tools:context="com.thargyi.padc_exercise_week4.fragments.MovieFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_medium"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="@dimen/margin_medium_2"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/warcraft" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_movie_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/movie_title"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textSize="@dimen/text_regular_3x" />
+
+            <Button
+                android:id="@+id/btn_yoteshin_details"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/image_size_movie"
+                android:layout_below="@id/tv_movie_title"
+                android:background="@drawable/yoteshinn_btn_background"
+                android:text="@string/btn_yoteshin_details"
+                android:textAllCaps="true" />
+
+            <ImageButton
+                android:id="@+id/btn_yoteshin_share"
+                android:layout_width="@dimen/image_size_movie"
+                android:layout_height="@dimen/image_size_movie"
+                android:layout_below="@id/tv_movie_title"
+                android:layout_toRightOf="@id/btn_yoteshin_details"
+                android:background="@drawable/yoteshinn_btn_background"
+                android:src="@drawable/ic_share_24dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
+

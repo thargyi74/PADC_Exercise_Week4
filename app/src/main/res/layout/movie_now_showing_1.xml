@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll_movie_now_showing_body_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_medium"
+            android:text="@string/movie_planet"
+            android:textColor="#000"
+            android:textSize="@dimen/text_regular_2x"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_medium"
+            android:text="@string/movie_pyinoolwin"
+            android:textColor="#acacac"
+            android:textSize="@dimen/text_regular_2x"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_medium_2"
+            android:text="@string/movie_show_time_1"
+            android:textColor="#000"
+            android:textSize="@dimen/text_regular_2x" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btn_movie_call_planet"
+        android:layout_width="@dimen/image_size_movie"
+        android:layout_height="@dimen/image_size_movie"
+        android:layout_alignParentRight="true"
+
+        android:background="@drawable/yoteshinn_btn_background_circle"
+        android:src="@drawable/ic_call_24dp" />
+
+    <ImageButton
+        android:id="@+id/btn_movie_share_planet"
+        android:layout_width="@dimen/image_size_movie"
+        android:layout_height="@dimen/image_size_movie"
+
+        android:layout_toLeftOf="@id/btn_movie_call_planet"
+        android:background="@drawable/yoteshinn_btn_background_circle"
+        android:src="@drawable/ic_share_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_movie_now_showing_body_1"
+        android:background="@color/border_gray" />
+
+</RelativeLayout>
+

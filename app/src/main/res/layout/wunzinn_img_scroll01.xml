@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_wunzinn_aakt_freewheel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium_3"
+                android:src="@drawable/wunzinn_aast_sewlnyi"/>
+
+            <ImageView
+                android:id="@+id/img_wunzinn_aast_brightbylove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium_3"
+                android:layout_toRightOf="@id/img_wunzinn_aakt_freewheel"
+                android:src="@drawable/wunzinn_akt_annima"
+                />
+
+            <ImageView
+                android:id="@+id/img_wunzinn_aast_sewlnyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium_3"
+                android:layout_toRightOf="@id/img_wunzinn_aast_brightbylove"
+                android:src="@drawable/wunzinn_aakt_freewheel"
+                 />
+
+            <ImageView
+                android:id="@+id/img_wunzinn_akt_miscellaneous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium_3"
+                android:layout_toRightOf="@id/img_wunzinn_aast_sewlnyi"
+                android:src="@drawable/wunzinn_aast_brightbylove"/>
+
+            <ImageView
+                android:id="@+id/img_wunzinn_akt_annima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium_3"
+                android:layout_toRightOf="@id/img_wunzinn_akt_miscellaneous"
+                android:src="@drawable/wunzinn_akt_miscellaneous"/>
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+</LinearLayout>
