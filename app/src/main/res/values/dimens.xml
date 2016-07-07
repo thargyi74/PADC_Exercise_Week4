@@ -4,14 +4,16 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
-    <!-- Generic with ratio -->
     <dimen name="margin_small">4dp</dimen>
     <dimen name="margin_medium">8dp</dimen>
-    <dimen name="margin_medium_2">20dp</dimen>
+    <dimen name="margin_medium_2">16dp</dimen>
     <dimen name="margin_medium_3">18dp</dimen>
     <dimen name="margin_large">24dp</dimen>
     <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">48dp</dimen>
+    <dimen name="margin_xxxlarge">80dp</dimen>
 
+    <dimen name="text_xsmall">10sp</dimen>
     <dimen name="text_small">12sp</dimen>
     <dimen name="text_regular">14sp</dimen>
     <dimen name="text_regular_2x">16sp</dimen>
@@ -27,4 +29,11 @@
     <dimen name="margin_bottom_home_fab">60dp</dimen>
     <dimen name="status_bar_height">25dp</dimen>
     <dimen name="card_elevation">2dp</dimen>
+
+    <dimen name="image_size_job_search">100dp</dimen>
+    <dimen name="button_size_job_search">24dp</dimen>
+    <dimen name="button_size_job_search_width">64dp</dimen>
+    <dimen name="button_size_job_search_height">24dp</dimen>
+
+    <dimen name="image_size_movie">50dp</dimen>
 </resources>

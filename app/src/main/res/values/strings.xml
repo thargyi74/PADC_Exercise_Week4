@@ -6,9 +6,69 @@
     <string name="left_menu_padc_pulse">PADC Pulse</string>
     <string name="left_menu_padc_movie">PADC ရုပ္ရွင္</string>
     <string name="left_menu_win_zin">PADC ဝန္ဇင္း</string>
+
+    <string name="linkedin_view_count">Who\'s viewed your profile</string>
+    <string name="linkedin_share_count">Who\'s shared your profile</string>
     <string-array name="spinner_email">
         <item>aungpyaephyo24@gmail.com</item>
         <item>thargyi74@gmail.com</item>
         <item>ymn@gmail.com</item>
     </string-array>
+
+    <!-- Job Search -->
+    <string name="job_search_switch">Create a job alert</string>
+    <string name="job_search_bank_1">Developer / Senior Developer</string>
+    <string name="job_search_bank_2">Standard Chartered Bank</string>
+    <string name="job_search_sg">Singapore</string>
+    <string name="job_search_sg_01">Singapore - 01</string>
+    <string name="job_search_facebook_1">Client Partner,\nMobile Publisher Sales - Japan</string>
+    <string name="job_search_facebook_2">Facebook</string>
+    <string name="job_search_sap_1">SAP Partner Solution Center</string>
+    <string name="job_search_sap_2">Head for APJ &amp; Greater China</string>
+    <string name="job_search_cloud_1">Technical Architect Marketing Cloud</string>
+    <string name="job_search_cloud_2">salesforce.com</string>
+    <string name="job_search_bank_button">New</string>
+    <string name="job_search_3w">3w</string>
+    <string name="job_search_sap">SAP</string>
+    <string name="job_search_1w">1w</string>
+
+
+    <!-- Pulse -->
+    <string name="pulse_title_1">Good Morning, AungPyae</string>
+    <string name="pulse_title_2">Here are your top stories for the day</string>
+    <string name="pulse_editor_title">Editor\'s Pick</string>
+    <string name="pulse_editor_3h">3h</string>
+    <string name="pulse_title_china">China Has High-Performing Companies-It Just Needs a Lot Mor of Them</string>
+    <string name="pulse_title_author_share">Gordon Orr / 131 shares</string>
+
+
+    <!-- Yote Shin -->
+    <string name="movie_title">Warcraft: The Beginning (3d)</string>
+    <string name="btn_yoteshin_details">details</string>
+    <string name="movie_story_title">Story</string>
+    <string name="movie_story_body">Looking to escape from his dying world, the orc shaman Gul\'dan utilizes dark magic to open a portal to the human realm of Azeroth. Supported by the fierce fighter Blackhand, Gul\'dan organizes the orc clans into a conquering army called the Horde. Uniting to protect Azeroth from these hulking invaders are King Llane, the mighty warrior Anduin Lothar (Travis Fimmel) and the powerful wizard Medivh. As the two races collide, leaders from each side start to question if war is the only answer.</string>
+    <string name="read_more">read more</string>
+    <string name="movie_now_showing_title">Now Showing In</string>
+    <string name="movie_planet">Movie Planet</string>
+    <string name="movie_pyinoolwin">Pyin Oo Lwin</string>
+    <string name="movie_show_time_1">10:00 AM, 12:30 PM, 3:30 PM, 6:30 PM</string>
+    <string name="movie_show_time_2">12:30 PM, 3:00 PM, 6:00 PM, 8:30 PM</string>
+    <string name="movie_mingalar_tun_thiri">Mingalar Tun Thiri</string>
+    <string name="movie_pyay">Pyay</string>
+
+
+    <!-- Wun Zinn -->
+    <string name="wunzinn_makyipyar">မၾကည္ျပာႏွင့္ခ်စ္ျခင္း၏နဂၢတစ္မ်ား</string>
+    <string name="wunzinn_nikoye">နီကိုရဲ</string>
+    <string name="wunzinn_price">700 Kyats</string>
+    <string name="wunzinn_file_size">File size : 2.43 MB</string>
+    <string name="wunzinn_summery">Summery</string>
+    <string name="wunzinn_related_books">Related books</string>
+    <string name="wunzinn_hartha">ဟာသစာအုပ္အမ်ိဳးအစားမ်ား</string>
+    <string name="wunzinn_freewheel">ဖရီးဝွီး</string>
+    <string name="wunzinn_brightbylove">ချစ်ခြင်းဖြင့်လင်းလက်စေ</string>
+    <string name="wunzinn_sewlnyi">စွဲငြိ</string>
+    <string name="wunzinn_miscellaneous">အစုံသုပ်</string>
+    <string name="btn_wunzinn_buy">Buy</string>
+    <string name="btn_wunzinn_Sample">Sample</string>
 </resources>

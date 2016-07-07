@@ -7,4 +7,8 @@
     <color name="text_black_full">#000</color>
     <!-- light blue 800 -->
     <color name="colorButton">#0277bd</color>
+    <color name="color_primary_dark_two">#424242</color>
+
+
+    <color name="border_gray">#cbcbcb</color>
 </resources>
